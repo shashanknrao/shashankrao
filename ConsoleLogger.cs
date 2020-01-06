@@ -7,6 +7,7 @@ namespace NinjectNet
         public void Log(string message)
         {
             Console.WriteLine("{0}: {1}", DateTime.Now, message);
+            Console.WriteLine("Test");
         }
     }
 }
